@@ -1,0 +1,28 @@
+#wrap{
+	width: 200px;
+	height: 200px;
+	background-color: pink;
+}
+
+#header{
+	width: 50px;
+	height: 100px;
+	background-color: yellow;
+}
+
+
+#contenet{
+	width: 500px;
+	height: 500px;
+	background-color: #DDDDDD
+	line.height:50px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+
+#footer{
+	width: 100px;
+
+}

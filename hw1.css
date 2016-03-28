@@ -43,50 +43,123 @@
 	font-family: arial;
 }
 
-.program1{
+
+
+
+
+#float{
+	background-color: #DDDDDD;
+	padding: 5px 5px 5px 10px;
+	font-size: 100%;
+}
+
+#floatEX{
+	background-color: #DDDDDD;
+	padding: 10px 10px 10px 10px;
+	font-size: 100%;
+
+}
+
+#floatoutput{
+	background-color: #99FF99;
+	padding: 0px 10px 0px 10px;
+	font-size: 100%;
+	
+}
+
+#styleEX{
+	background-color: #DDDDDD;
+	padding: 10px 10px 10px 10px;
+	line-height: 20px;
+	font-size: 110%;
+}
+
+.connecttest{
+	position: relative;
+	left: 300px;
+	right: 50px;
+}
+
+
+.listEX1{
 	background-color: #DDDDDD;
 	padding: 10px 10px 10px 5px;
 }
 
 
-.program2{
+.listEX2{
 	background-color: #DDDDDD;
 	padding: 10px 10px 10px 5px;
 }
 
 
-.program3{
+.listEX3{
 	background-color: #DDDDDD;
 	padding: 10px 10px 10px 5px;
 }
 
-.program4{
+.listEX4{
 	background-color: #DDDDDD;
 	padding: 10px 10px 10px 5px;
 }
 
 
-.change{
+.imagelist{
 	color: green;
 }
-.program5{
+.imagestyle{
 	background-color: #DDDDDD;
 	padding: 10px 10px 10px 5px;
 }
 
-.program6{
+.styleoutput{
 	background-color: #DDDDDD;
 	padding: 10px 10px 10px 5px;
 }
 
-.program7{
+.shortcut{
 	background-color: #DDDDDD;
 	padding: 10px 10px 10px 5px;
 }
 
-.program8{
+.useshortcut{
 	background-color: #DDDDDD;
 	padding: 10px 10px 10px 5px;
+}
+
+.styleconnect{
+	line-height: 30px;
+	font-size: 120%;
+}
+
+.tableEX1{
+	padding: 10px 10px 10px 10px;
+	background-color: #DDDDDD;
+	font-size:120%;
+}
+
+.studentgrades{
+	padding: 10px 10px 10px 10px;
+	background-color: #DDDDDD;
+	font-size:110%;
+}
+
+.gradesoutput{
+	background-color: yellow;
+	font-size:15px;
+	padding: 10px 10px 10px 10px;
+}
+
+.border-collpase{
+	padding: 10px 10px 10px 10px;
+	background-color: #DDDDDD;
+	font-size:120%;
+}
+
+.annualsalary{
+	padding: 10px 10px 10px 10px;
+	background-color: #DDDDDD;
+	font-size:120%;
 }
 
 .next{
