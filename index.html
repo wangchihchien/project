@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel=stylesheet type="text/css" href="css/hw1.css"/>
+</head>
+
+<body>
+<div id="title">CSS表格</div>
+
+<div id="all">
+<div id="list">
+    <ul style="list-style-type: none;">
+    <li><br><br><a href="http://www.1keydata.com/css-tutorial/tw/">CSS語法教學</a> <br> </li>
+    <li><br><a href="http://www.1keydata.com/css-tutorial/tw/syntax.php">CSS 語法</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/apply.php">CSS 套用方式</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/media-types.php">CSS 媒體類別</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/cascade.php">CSS 串接</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/inheritance.php">CSS 繼承</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/class-id.php">CSS Class與ID</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/div-span.php">CSS Div與Span</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/length-units.php">CSS 長度單位</a> <br></li>
+    <li><br><a href="http://www.1keydata.com/css-tutorial/tw/box-model.php">CSS 盒子模式</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/margin.php">CSS 邊界(Margin)</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/border.php">CSS 邊框(Border)</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/padding.php">CSS 留白(Padding)</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/background.php">CSS 背景(Background)</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/color.php">CSS 顏色</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/font.php">CSS 字體</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/link.php">CSS 連接</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/list.php">CSS 清單(List)</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/table.php">CSS 表格(Table)</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/position.php">CSS 位置(Position)</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/text.php">CSS 文字(Text)</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/float.php">CSS 浮動(Float)</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/clear.php">CSS 清除(Clear)</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/cursor.php">CSS 滑鼠游標圖案</a> <br></li>
+    <li><br><a href="http://www.1keydata.com/css-tutorial/tw/codes.php">CSS 樣式</a></li>
+    <li><br><a href=""></a><br></li>
+    </ul>
+</div>
+
+
+<div id="text">
+<h3><a href="http://www.1keydata.com/css-tutorial/tw/">CSS 教學&nbsp&nbsp</a>>&nbsp&nbsp表格</h3> <br>
+
+在 HTML 中，常看到 table之內加了 border、cellpadding、及 cellspacing 的屬性。如果我們有透過 CSS 來制定表格的樣式，那就不需要在 HTML 之內用到這些屬性了。
+
+<p> 
+    <b>table</b>、<b>th</b>、<b>tr</b>、及 <b>td</b> 這幾個選擇器可以使用許多在這個教學中有提到的 CSS 屬性，例如
+    <b><a href="http://www.1keydata.com/css-tutorial/tw/text.php">文字</a></b>、
+    <b><a href="http://www.1keydata.com/css-tutorial/tw/font.php">字體</a></b>、
+    <b><a href="http://www.1keydata.com/css-tutorial/tw/border.php">邊框</a></b>、
+    <b><a href="http://www.1keydata.com/css-tutorial/tw/color.php">顏色</a></b>、以及 
+    <b><a href="http://www.1keydata.com/css-tutorial/tw/background.php">背景</a></b>。
+</p>
+
+來看個例子。假設我們想要把以下的樣式加入表格內：<br>
+<ul style="square">
+    <li>表格： 沒有邊框，字體是 arial，字的大小是 14px。</li>
+    <li>標題： 背景是黃色。</li>
+    <li>格子： 每個格子的下面有一條黑色實線。</li>
+    <li>低於 60 的分數欄內，字體是紅色的。</li>
+</ul>
+
+我們就會使用以下的樣式表：
+
+<p class="tableEX1">
+    table {  <br>
+    &nbsp border: 0;  <br>
+    &nbsp font-family: arial;  <br>
+    &nbsp font-size:14px;  <br>
+    }  <br>
+    th {  <br>
+    &nbsp background-color:yellow;  <br>
+    }  <br>
+    td {  <br>
+    &nbsp border-bottom:1 solid #000000;  <br>
+    }  <br>
+    .fail {  <br>
+    &nbsp color:#FF0000;  <br>
+    }
+</p>
+
+以下的 HTML 碼，<br>
+<p class="studentgrades">
+    < table>  <br>
+    &nbsp < tr>  <br>
+    &nbsp &nbsp &nbsp < th>學生< /th>  <br>
+    &nbsp &nbsp &nbsp < th>分數< /th>  <br>  
+    &nbsp < /tr><br>
+    &nbsp < tr> <br>
+    &nbsp &nbsp &nbsp < td>Stella< /td> <br>
+    &nbsp &nbsp &nbsp < td>85< /td> <br>
+    &nbsp < /tr> <br>
+    &nbsp < tr> <br>
+    &nbsp &nbsp &nbsp < td>Sophie< /td> <br>
+    &nbsp &nbsp &nbsp < td>95< /td> <br>
+    &nbsp < /tr> <br>
+    &nbsp < tr> <br>
+    &nbsp &nbsp &nbsp < td>Alice< /td> <br>
+    &nbsp &nbsp &nbsp < td class="fail">55< /td> <br>
+    &nbsp < /tr> <br>
+    < /table>
+</p>
+
+就會顯現出，<br>
+<table> 
+  <tr> 
+  <th><p class="gradesoutput">  
+  學生 分數
+  </p>  
+  </th>
+  </tr> 
+  <tr> 
+  <td>Stella</td> 
+  <td>85</td> 
+  </tr> 
+  <tr> 
+  <td>Sophie</td> 
+  <td>95</td> 
+  </tr> 
+  <tr> 
+  <td>Alice</td> 
+  <td class="fail">55</td> 
+  </tr> 
+</table>
+
+
+
+<h2><b>border-collapse</b></h2>
+在這裡我們要特別提到一個跟表格有關的 CSS 屬性，那就是<b>border-collapse</b>。基本上，這個屬性可以直接代替 cellspacing=0 的宣告。我們來看看下面的例子：<br><br>
+
+CSS 宣告如下，<br>
+
+<p class="border-collpase">
+table { <br>
+  &nbsp border:0; <br>
+  &nbsp border-collpase:collpase; <br>
+  &nbsp width:200px; <br>
+} <br>
+<br>
+tr { <br>
+  &nbsp border-bottom:1px solid #000; <br>
+}<br>
+</p>
+
+
+<p>以下的 HTML 碼，</p>
+<p class="annualsalary">
+< table> <br>
+  &nbsp&nbsp < tr>< td>年度< /td>< td>收入< /td>< /tr> <br>
+  &nbsp&nbsp < tr>< td>2006< /td>< td>35.2M< /td>< /tr> <br>
+  &nbsp&nbsp < tr>< td>2007< /td>< td>40.1M< /td>< /tr> <br>
+< /table>
+</p>
+
+就會顯現出，
+<br>
+
+<table> 
+  <tr><td>年度</td> &nbsp <td>收入</td></tr> 
+  <tr><td>2006</td> &nbsp <td>35.2M</td></tr> 
+  <tr><td>2007</td> &nbsp <td>40.1M</td></tr> 
+</table>
+
+<br>
+請注意到，年度欄及收入欄的下劃線中間並沒有空隙。這就是 border-collapse:collapse 的作用。
+<br>
+<br>
+
+<p class="next">
+  下一頁:<a href="http://www.1keydata.com/css-tutorial/tw/position.php">CSS位置</a>
+</p>
+<br>
+
+</div>
+</div>
+
+</body>
+</html>
