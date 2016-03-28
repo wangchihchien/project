@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel=stylesheet type="text/css" href="css/clear.css"/>
+</head>
+
+<body>
+<div id="title">CSS清除</div>
+
+<div id="all">
+<div id="list">
+    <ul style="list-style-type: none;">
+    <li><br><br><a href="http://www.1keydata.com/css-tutorial/tw/">CSS語法教學</a> <br> </li>
+    <li><br><a href="http://www.1keydata.com/css-tutorial/tw/syntax.php">CSS 語法</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/apply.php">CSS 套用方式</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/media-types.php">CSS 媒體類別</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/cascade.php">CSS 串接</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/inheritance.php">CSS 繼承</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/class-id.php">CSS Class與ID</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/div-span.php">CSS Div與Span</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/length-units.php">CSS 長度單位</a> <br></li>
+    <li><br><a href="http://www.1keydata.com/css-tutorial/tw/box-model.php">CSS 盒子模式</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/margin.php">CSS 邊界(Margin)</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/border.php">CSS 邊框(Border)</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/padding.php">CSS 留白(Padding)</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/background.php">CSS 背景(Background)</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/color.php">CSS 顏色</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/font.php">CSS 字體</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/link.php">CSS 連接</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/list.php">CSS 清單(List)</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/table.php">CSS 表格(Table)</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/position.php">CSS 位置(Position)</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/text.php">CSS 文字(Text)</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/float.php">CSS 浮動(Float)</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/clear.php">CSS 清除(Clear)</a> <br></li>
+    <li><a href="http://www.1keydata.com/css-tutorial/tw/cursor.php">CSS 滑鼠游標圖案</a> <br></li>
+    <li><br><a href="http://www.1keydata.com/css-tutorial/tw/codes.php">CSS 樣式</a></li>
+    <li><br><a href=""></a><br></li>
+    </ul>
+</div>
+
+
+
+<div id="text">
+<H3><a href="http://www.1keydata.com/css-tutorial/tw/">CSS 教學&nbsp&nbsp</a>>&nbsp&nbspClear</H3> 
+
+clear(清除)屬性是用來抵銷<a href="http://www.1keydata.com/css-tutorial/tw/float.php">float</a>屬性的作用。可能的值為:  <br>
+
+<p> <ul style="list-style-type: disc;">
+    <li>left:消除左邊的浮動。</li>	
+    <li>right:消除右邊的浮動。</li>
+    <li>both:消除左邊及右邊的浮動。</li>
+    <li>none:不消除任何一邊的浮動。</li>
+    </ul>
+</p>
+<br>
+
+來看一下從<a href="http://www.1keydata.com/css-tutorial/tw/float.php">float</a>那一頁稍作修改的例子:  <br>
+<br>
+
+CSS宣告
+<br><br>
+
+
+<div id="program1">
+	#leftflo at { <br>
+    &nbsp float:left; <br>
+    }<br>
+<br>
+    #clearleft { <br>
+    &nbsp clear:left; <br>
+}
+</div>
+<br>
+
+以下的HTML碼，
+<br><br>
+
+<div id="program2">
+	< span id="leftfloat">< img src="img/corgi1.png">< /span>這個例子< span id="clearleft">展現出 clear:left 能夠抵銷 float 屬性的值。< /span>
+</div>
+<br>
+
+就會顯現出，
+<br><br>
+
+<div id="program3">
+<p>
+<span id="leftfloat"><img src="corgi1.png"></span>這個例子<span id="clearleft">展現出 clear:left 能夠抵銷 float 屬性的值。</span>	
+</p>
+</div>
+
+<p>
+	在上面的例子中，一但 clear:left 的樣式被用上，float:left 就不再有作用。也就因為這樣，在 clear:left 樣式後的所有文字都是在圖案之下。
+</p>
+<br>
+
+<p class="next">
+下一頁:<a href="http://www.1keydata.com/css-tutorial/tw/cursor.php">CSS滑鼠游標圖案</a>
+</p>
+
+<br>
+
+</div>
+</div>
+
+</body>
+</html>
