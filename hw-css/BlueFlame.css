@@ -76,8 +76,9 @@ img#logo{
 	font-size: 10px;
 	color: black;
 	margin: 5px;
-	text-decoration: none;
+	
 }
+
 
 .content{
 	width: 800px;
@@ -100,23 +101,20 @@ img#logo{
 	border: #DDDDDD 1px solid;
 	width: 260px;
 	height: 180px;
-	box-shadow: ;
+	box-shadow: 4px 4px rgba;
 }
 
 .Couches{
 	font-size: 10px;
 	font-family:arial;
 	text-align: center;
-
 }
 
 .content h1{
 	font-family: arial;
 	text-decoration: underline;
  	color:#0072E3;
- 	font-size: 25px;
-
- 
+ 	font-size: 25px; 
 }
 
 .clear{
